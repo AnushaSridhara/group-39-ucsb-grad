@@ -1,0 +1,22 @@
+---
+title: "Group 39 UCSB domestic grad enrollment"
+author: "Anusha Sridhara and Sarah Lam"
+date: "11/15/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#Attach packages
+library(tidyverse)
+library(here)
+```
+
+```{r}
+#Read in the data
+ucsb_grad <- read_csv(here("data", "ucsb_grad_data.csv"))
+```
+
